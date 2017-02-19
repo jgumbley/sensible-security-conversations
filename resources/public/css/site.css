@@ -1,0 +1,83 @@
+@page {
+    size: 21cm 29.7cm;
+    margin: 30mm 45mm 30mm 45mm; /* change the margins as you want them to be. */
+}
+
+div.card {
+  color: #666666;
+  margin: 0cm;
+  width: 10.40cm;
+  height: 7.35cm;
+  float: left;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #eeeeee;
+  background-color: white;
+  position: relative;
+}
+
+div.card-given {
+  font-size: 1.5em;
+  padding: 0.2cm;
+  }
+
+span.card-then-title {
+  font-family: 'Open Sans Bold', Verdana, Helvetica, Arial, sans-serif;
+  color: #ff9900;
+}
+
+span.card-given-title {
+  font-family: 'Open Sans Bold', Verdana, Helvetica, Arial, sans-serif;
+  color: #32af51;
+}
+
+div.card-then {
+  padding: 0.2cm;
+  margin-top: 0.5cm;
+  font-size: 1.5em;
+  }
+
+div.card-category {
+  font-family: 'Open Sans Extra-Bold', Verdana, Helvetica, Arial, sans-serif;
+  bottom: 0;
+  position: absolute;
+  font-weight: bold;
+  padding-top: 0.2cm;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+
+.body-container {
+  font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 21cm;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+  background-color: grey;
+}
+
+span.green {
+  color: #32af51;
+}
+
+span.yellow {
+  color: #afa832;
+}
+
+span.blue {
+  color: #3246af;
+}
+
+span.red {
+  color: #af3232;
+}
+
+span.orange {
+  color: #af6432;
+}
+
+
