@@ -10,7 +10,6 @@
             [clojure.string :as str]
             ))
 
-
 (defn head []
   [:head
    [:meta {:charset "utf-8"}]
@@ -22,16 +21,27 @@
 
 (def client (make-client (env :key) (env :secret)))
 
-(def cards (client t/get "boards/ZiANFBCJ/cards"))
-
-(defn map-trello-card [trello-card]
+(defn map-vulnerability-card [trello-card]
   {:category       ((first (trello-card :labels)) :name)
    :given-clause   (first (str/split (trello-card :name) #"THEN"))
    :then-clause    (str "THEN " (second (str/split (trello-card :name) #"THEN")))
    :category-color ((first (trello-card :labels)) :color)
    :trello-url     (escape-html (trello-card :shortUrl))
+   :card-type      :vulnerability
    }
   )
+
+(defn map-attacker-card [trello-card]
+  { :card-type       :attacker }
+  )
+
+(def load-from-trello
+  (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")
+        attackers (client t/get "boards/uxQyvaUl/cards")]
+    (concat
+      (map map-vulnerability-card vulnerabilities)
+      (map map-attacker-card attackers)
+    )))
 
 (defn style-to-line [line style]
   [:span {:class style} line]
@@ -41,8 +51,9 @@
   [:span [:span {:class style} word] (str/replace line word "")]
   )
 
+(defmulti draw-card (#(% :card-type)))
 
-(defn draw-card [card]
+(defmethod draw-card :vulnerability [card]
   [:div.card
    [:div.card-given (style-to-word (card :given-clause) "GIVEN" "card-given-title")]
    [:div.card-then (style-to-word (card :then-clause) "THEN" "card-then-title")]
@@ -50,13 +61,20 @@
    ]
   )
 
+(defmethod draw-card :attacker [card]
+  [:div.card
+   :p "Attacker card"
+   ]
+  )
+
 (defn trello-page []
+  (let [cards load-from-trello]
   (html5
     (head)
     [:body {:class "body-container"}
-     (for [card cards] (draw-card (map-trello-card card)))
+     (for [card cards] (draw-card card))
      ]
-    )
+    ))
   )
 
 ;-----------------------------------------------------
