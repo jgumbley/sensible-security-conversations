@@ -42,12 +42,33 @@
    :sothat-clause  (str "SO THAT " (second split-so-that))
    :card-type       :attacker }))
 
+(defn blank-attacker [num]
+  {
+   :asa-clause     ""
+   :with-clause    ""
+   :sothat-clause  ""
+   :card-type      :attacker
+   }
+  )
+
+(defn blank-vulnerability [num]
+  {:category       "Blank"
+   :given-clause   ""
+   :then-clause    ""
+   :category-color "black"
+   :trello-url     ""
+   :card-type      :vulnerability
+   }
+  )
+
 (def load-from-trello
   (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")
         attackers (client t/get "boards/uxQyvaUl/cards")]
     (concat
       (map map-vulnerability-card vulnerabilities)
+      (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
       (map map-attacker-card attackers)
+      (map blank-attacker [1 2 3])
     )))
 
 (defn style-to-line [line style]
@@ -70,7 +91,7 @@
 
 (defmethod draw-card :attacker [card]
   [:div.card
-   [:div.card-asa (style-to-word (card :asa-clause) "AS A" "card-asa-title")]
+   [:div.card-asa (style-to-word (card :asa-clause) "AS" "card-asa-title")]
    [:div.card-with (style-to-word (card :with-clause) "WITH" "card-asa-title")]
    [:div.card-sothat (style-to-word (card :sothat-clause) "SO THAT" "card-asa-title")]
    [:div.card-category (style-to-line "Attacker" "green")]

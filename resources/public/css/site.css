@@ -19,6 +19,7 @@ div.card {
 div.card-given {
   font-size: 1.5em;
   padding: 0.2cm;
+  min-height: 2cm;
   }
 
 span.card-asa-title {
