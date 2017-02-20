@@ -21,6 +21,11 @@ div.card-given {
   padding: 0.2cm;
   }
 
+span.card-asa-title {
+  font-family: 'Open Sans Bold', Verdana, Helvetica, Arial, sans-serif;
+  color: #af3232;
+}
+
 span.card-then-title {
   font-family: 'Open Sans Bold', Verdana, Helvetica, Arial, sans-serif;
   color: #ff9900;
@@ -35,6 +40,24 @@ div.card-then {
   padding: 0.2cm;
   margin-top: 0.5cm;
   font-size: 1.5em;
+  }
+
+div.card-asa {
+  padding: 0.2cm;
+  margin-top: 0.4cm;
+  font-size: 1.3em;
+  }
+
+div.card-with {
+  padding: 0.2cm;
+  margin-top: 0.4cm;
+  font-size: 1.3em;
+  }
+
+div.card-sothat {
+  padding: 0.2cm;
+  margin-top: 0.4cm;
+  font-size: 1.3em;
   }
 
 div.card-category {

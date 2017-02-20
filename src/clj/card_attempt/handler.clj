@@ -32,8 +32,15 @@
   )
 
 (defn map-attacker-card [trello-card]
-  { :card-type       :attacker }
-  )
+  (let [line (trello-card :name)
+        split-with (str/split line #"WITH")
+        split-so-that (str/split (second split-with) #"SO THAT")
+        ]
+  {
+   :asa-clause     (first split-with)
+   :with-clause    (str "WITH " (first split-so-that))
+   :sothat-clause  (str "SO THAT " (second split-so-that))
+   :card-type       :attacker }))
 
 (def load-from-trello
   (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")
@@ -51,7 +58,7 @@
   [:span [:span {:class style} word] (str/replace line word "")]
   )
 
-(defmulti draw-card (#(% :card-type)))
+(defmulti draw-card #(% :card-type))
 
 (defmethod draw-card :vulnerability [card]
   [:div.card
@@ -63,7 +70,10 @@
 
 (defmethod draw-card :attacker [card]
   [:div.card
-   :p "Attacker card"
+   [:div.card-asa (style-to-word (card :asa-clause) "AS A" "card-asa-title")]
+   [:div.card-with (style-to-word (card :with-clause) "WITH" "card-asa-title")]
+   [:div.card-sothat (style-to-word (card :sothat-clause) "SO THAT" "card-asa-title")]
+   [:div.card-category (style-to-line "Attacker" "green")]
    ]
   )
 
