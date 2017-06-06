@@ -61,14 +61,18 @@
    }
   )
 
-(def load-from-trello
-  (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")
-        attackers (client t/get "boards/uxQyvaUl/cards")]
+(def load-attackers
+  (let [attackers (client t/get "boards/uxQyvaUl/cards")]
     (concat
-      (map map-vulnerability-card vulnerailities)
+     (map map-attacker-card attackers)
+     (map blank-attacker [1 2 3])
+     )))
+
+(def load-vulnerabilities
+  (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")]
+    (concat
+      (map map-vulnerability-card vulnerabilities)
       (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
-      (map map-attacker-card attackers)
-      (map blank-attacker [1 2 3])
     )))
 
 (defn style-to-line [line style]
@@ -99,7 +103,7 @@
   )
 
 (defn vulnerability-page []
-  (let [cards load-from-trello]
+  (let [cards load-vulnerabilities]
   (html5
     (head)
     [:body {:class "body-container"}
@@ -109,12 +113,11 @@
   )
 
 (defn attackers-page []
-  (let [cards load-from-trello]
+  (let [cards load-attackers]
     (html5
      (head)
      [:body {:class "body-container"}
-      :h1 "bizzle"
-      ]
+      (for [card cards] (draw-card card))
      ))
   )
 
