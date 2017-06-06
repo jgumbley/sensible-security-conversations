@@ -65,7 +65,7 @@
   (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")
         attackers (client t/get "boards/uxQyvaUl/cards")]
     (concat
-      (map map-vulnerability-card vulnerabilities)
+      (map map-vulnerability-card vulnerailities)
       (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
       (map map-attacker-card attackers)
       (map blank-attacker [1 2 3])
@@ -98,7 +98,7 @@
    ]
   )
 
-(defn trello-page []
+(defn vulnerability-page []
   (let [cards load-from-trello]
   (html5
     (head)
@@ -106,6 +106,16 @@
      (for [card cards] (draw-card card))
      ]
     ))
+  )
+
+(defn attackers-page []
+  (let [cards load-from-trello]
+    (html5
+     (head)
+     [:body {:class "body-container"}
+      :h1 "bizzle"
+      ]
+     ))
   )
 
 ;-----------------------------------------------------
@@ -128,7 +138,8 @@
 (defroutes routes
            ;(GET "/" [] (loading-page))
            ;(GET "/about" [] (loading-page))
-           (GET "/trello" [] (trello-page))
+  (GET "/vulnerabilities" [] (vulnerability-page))
+  (GET "/attackers" [] (attackers-page))
 
            (resources "/")
            (not-found "Not Found"))

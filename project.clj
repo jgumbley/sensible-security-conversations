@@ -24,7 +24,9 @@
   :plugins [[lein-environ "1.0.2"]
             [lein-cljsbuild "1.1.1"]
             [lein-asset-minifier "0.2.7"
-             :exclusions [org.clojure/clojure]]]
+             :exclusions [org.clojure/clojure]]
+            [refactor-nrepl "2.3.1"]
+            [cider/cider-nrepl "0.14.0"]]
 
   :ring {:handler card-attempt.handler/app
          :uberwar-name "card-attempt.war"}
