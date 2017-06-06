@@ -94,10 +94,10 @@
   )
 
 (defmethod draw-card :attacker [card]
-  [:div.card
-   [:div.card-asa (style-to-word (card :asa-clause) "AS" "card-asa-title")]
-   [:div.card-with (style-to-word (card :with-clause) "WITH" "card-asa-title")]
-   [:div.card-sothat (style-to-word (card :sothat-clause) "SO THAT" "card-asa-title")]
+  [:div.bigcard
+   [:div.bigcard-asa (style-to-word (card :asa-clause) "AS" "card-asa-title")]
+   [:div.bigcard-with (style-to-word (card :with-clause) "WITH" "card-asa-title")]
+   [:div.bigcard-sothat (style-to-word (card :sothat-clause) "SO THAT" "card-asa-title")]
    [:div.card-category (style-to-line "Attacker" "green")]
    ]
   )
@@ -118,6 +118,7 @@
      (head)
      [:body {:class "body-container"}
       (for [card cards] (draw-card card))
+      ]
      ))
   )
 
