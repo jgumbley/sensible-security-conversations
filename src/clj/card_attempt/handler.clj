@@ -8,6 +8,7 @@
             [trello.core :refer [make-client]]
             [trello.client :as t]
             [clojure.string :as str]
+            [clj-yaml.core :as yaml]
             ))
 
 (defn head []
@@ -61,24 +62,25 @@
    }
   )
 
+(defn save-vulns [fromtrello filename]
+  (do (spit filename (yaml/generate-string fromtrello)))
+  )
+
 (def load-attackers
   (let [attackers (client t/get "boards/uxQyvaUl/cards")]
-    (concat
-     (map map-attacker-card attackers)
-     (map blank-attacker [1 2 3])
-     )))
-
-(defn save-vulns [fromtrello]
-  (println fromtrello)
-  )
+    (do (save-vulns attackers "attackers.yml")
+      (concat
+      (map map-attacker-card attackers)
+      (map blank-attacker [1 2 3])
+      ))))
 
 (def load-vulnerabilities
   (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")]
-    (do (save-vulns vulnerabilities)
+    (do (save-vulns vulnerabilities "vulnerabilities.yml")
         (concat
           (map map-vulnerability-card vulnerabilities)
-          (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10]))
-        )))
+          (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
+        ))))
 
 (defn style-to-line [line style]
   [:span {:class style} line]

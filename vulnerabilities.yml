@@ -1,0 +1,3530 @@
+- idMembers: []
+  pos: 196607
+  url: https://trello.com/c/boPTMpQZ/3-given-our-system-depends-on-supporting-services-then-the-attacker-will-attack-our-system-via-one-of-those-services
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:12:06.295Z'
+  shortUrl: https://trello.com/c/boPTMpQZ
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5883d86f367fb6beedd64902
+  idShort: 3
+  checkItemStates: null
+  name: GIVEN our system depends on supporting services THEN the attacker will attack our system via one of those services
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: ''
+  shortLink: boPTMpQZ
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 327679
+  url: https://trello.com/c/gSVnclMJ/5-given-our-system-is-made-up-of-multiple-components-then-the-attacker-will-spoof-communications-of-another-system-component
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:12:13.107Z'
+  shortUrl: https://trello.com/c/gSVnclMJ
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5883da6d530ab1ad3241d98a
+  idShort: 5
+  checkItemStates: null
+  name: GIVEN our system is made up of multiple components THEN the attacker will spoof communications of another system component
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: 'Verify application deployments are adequately sandboxed, containerized or
+    isolated to delay and deter attackers from attacking other applications.
+
+
+    Communications between components, such as between the application server and
+    the database server should be authenticated using an account with the least necessary
+    privileges.
+
+
+    Verify that the message payload is signed to ensure reliable transport between
+    client and service.'
+  shortLink: gSVnclMJ
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 344063
+  url: https://trello.com/c/Ug5aNmtT/2-given-our-application-depends-on-third-party-libraries-and-frameworks-then-the-attacker-will-exploit-published-vulnerabilities-i
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:12:20.535Z'
+  shortUrl: https://trello.com/c/Ug5aNmtT
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5883d83c68bbe6beffdad986
+  idShort: 2
+  checkItemStates: null
+  name: GIVEN our application depends on third party libraries and frameworks THEN the attacker will exploit published vulnerabilities in those components
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: 'Verify that third party components come from trusted repositories.
+
+
+    Verify that all application components are signed.'
+  shortLink: Ug5aNmtT
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 360447
+  url: https://trello.com/c/v60vTZkG/24-given-that-system-components-use-credentials-to-authenticate-to-other-components-then-the-attacker-will-steal-these-credentials
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:12:28.932Z'
+  shortUrl: https://trello.com/c/v60vTZkG
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a447486b0d8716847b98
+  idShort: 24
+  checkItemStates: null
+  name: GIVEN that system components use credentials to authenticate to other components THEN the attacker will steal these credentials
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: Verify that secrets, API keys, and passwords are not included in the source code, or online source code repositories.
+  shortLink: v60vTZkG
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 393215
+  url: https://trello.com/c/rSq31EOE/6-given-our-system-has-components-on-networks-with-different-levels-of-sensitivity-then-the-attacker-will-attack-the-more-sensitiv
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:12:58.102Z'
+  shortUrl: https://trello.com/c/rSq31EOE
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5883dacb17986e066688c2ab
+  idShort: 6
+  checkItemStates: null
+  name: GIVEN our system has components on networks with different levels of sensitivity THEN the attacker will attack the more sensitive network from the less sensitive network
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: ''
+  shortLink: rSq31EOE
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 458751
+  url: https://trello.com/c/AipZaJEy/12-given-our-system-is-large-and-complex-then-the-attacker-will-attack-a-part-of-the-system-we-have-not-considered
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:13:16.336Z'
+  shortUrl: https://trello.com/c/AipZaJEy
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 58849f4b33d63f07606cd60d
+  idShort: 12
+  checkItemStates: null
+  name: GIVEN our system is large and complex THEN the attacker will attack a part of the system we have not considered
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: 'Analyse, security enforcing components first
+
+
+    Simplify the system
+
+
+    '
+  shortLink: AipZaJEy
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 524287
+  url: https://trello.com/c/oDR9KlHD/50-given-our-system-is-composed-of-multiple-services-which-communicate-over-a-network-then-the-attacker-will-obtain-the-contents-of
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:13:56.003Z'
+  shortUrl: https://trello.com/c/oDR9KlHD
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c4b85de7392ffb2f1af3
+  idShort: 50
+  checkItemStates: null
+  name: GIVEN our system is composed of multiple services which communicate over a network THEN the attacker will obtain the contents of these communications using a network 'in the middle' attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: Verify that the message payload is signed to ensure reliable transport between client and service.
+  shortLink: oDR9KlHD
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 589823
+  url: https://trello.com/c/R1qk5PBM/56-given-the-system-has-code-deployed-which-is-not-used-in-production-then-the-attacker-will-find-vulnerabilities-in-and-exploit-th
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:14:41.017Z'
+  shortUrl: https://trello.com/c/R1qk5PBM
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588c97f2b5e04058521c1a67
+  idShort: 56
+  checkItemStates: null
+  name: GIVEN the system has code deployed which is not used in production THEN the attacker will find vulnerabilities in and exploit this code
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: ''
+  shortLink: R1qk5PBM
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 720895
+  url: https://trello.com/c/OCkZCUwZ/88-given-our-system-makes-use-of-an-encryption-system-implemented-by-the-team-then-the-attacker-will-find-flaws-in-it-and-decrypt-a
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:14:53.916Z'
+  shortUrl: https://trello.com/c/OCkZCUwZ
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 589053717a63f61d47dddec8
+  idShort: 88
+  checkItemStates: null
+  name: GIVEN our system makes use of an encryption system implemented by the team THEN the attacker will find flaws in it and decrypt any data
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a599, idBoard: 5883c5f67c87e1fbda8ad61d, name: Architecture & System,
+    color: green, uses: 11}
+  dueComplete: false
+  desc: ''
+  shortLink: OCkZCUwZ
+  idLabels: [5883c5f6ced82109ffe0a599]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5883c64af014c4ecf68e8c56
+- idMembers: []
+  pos: 65535
+  url: https://trello.com/c/PoaYNuRY/13-given-some-resources-in-our-system-require-authentication-then-the-attacker-will-probe-for-unprotected-resources-or-access-contr
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:15:37.346Z'
+  shortUrl: https://trello.com/c/PoaYNuRY
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 58849fc2f3198d51efbd1043
+  idShort: 13
+  checkItemStates: null
+  name: GIVEN some resources in our system require authentication THEN the attacker will probe for unprotected resources or access control bugs without being detected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: PoaYNuRY
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 65663
+  url: https://trello.com/c/wVbHfeAY/36-given-the-system-allows-users-access-level-to-be-set-via-the-application-then-the-attacker-will-gain-access-to-this-interface-an
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:15:56.740Z'
+  shortUrl: https://trello.com/c/wVbHfeAY
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884bb03aba337bedcd36a11
+  idShort: 36
+  checkItemStates: null
+  name: GIVEN the system allows users access level to be set via the application THEN the attacker will gain access to this interface and grant further privileges
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: Verify that all user and data attributes and policy information used by access controls cannot be manipulated by end users unless specifically authorized.
+  shortLink: wVbHfeAY
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 65983
+  url: https://trello.com/c/u9lRlfzl/33-given-sensitive-records-are-directly-referred-to-by-an-id-or-reference-then-the-attacker-will-manipulate-input-to-access-records
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:17:04.501Z'
+  shortUrl: https://trello.com/c/u9lRlfzl
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884ba58f04776fa6a82cdb0
+  idShort: 33
+  checkItemStates: null
+  name: GIVEN sensitive records are directly referred to by an id or reference THEN the attacker will manipulate input to access records they should not have access to
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: u9lRlfzl
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 1
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 66047
+  url: https://trello.com/c/m29OjG2F/31-given-a-users-account-has-been-compromised-then-the-attacker-will-be-able-to-take-malicious-actions-undetected
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:17:54.657Z'
+  shortUrl: https://trello.com/c/m29OjG2F
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884aeea28294117da065b0e
+  idShort: 31
+  checkItemStates: null
+  name: GIVEN a users' account has been compromised THEN the attacker will be able to take malicious actions undetected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: m29OjG2F
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 66175
+  url: https://trello.com/c/27HPZwJx/34-given-the-system-allows-viewing-of-files-from-a-file-system-then-the-attacker-could-use-file-system-features-to-escalate-access
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:18:06.844Z'
+  shortUrl: https://trello.com/c/27HPZwJx
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884ba906a0e4003a6ba1ea4
+  idShort: 34
+  checkItemStates: null
+  name: GIVEN the system allows viewing of files from a file system THEN the attacker could use file system features to escalate access
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: Verify that directory browsing is disabled unless deliberately desired. Additionally, applications should not allow discovery or disclosure of file or directory metadata, such as Thumbs.db, .DS_Store, .git or .svn folders.
+  shortLink: 27HPZwJx
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 66303
+  url: https://trello.com/c/PaUrouiW/32-given-our-access-control-implementation-is-scratch-built-by-the-team-then-the-attacker-will-take-advantage-of-bugs-and-flaws-in
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:18:18.067Z'
+  shortUrl: https://trello.com/c/PaUrouiW
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884b8cec61de7e13b844603
+  idShort: 32
+  checkItemStates: null
+  name: GIVEN our access control implementation is scratch built by the team THEN the attacker will take advantage of bugs and flaws in the implementation
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: 'Verify that the principle of least privilege exists - users should only be
+    able to access functions, data files, URLs, controllers, services, and other resources,
+    for which they possess specific authorization. This implies protection against
+    spoofing and elevation of privilege.
+
+
+    Verify that there is a centralized mechanism (including libraries that call external
+    authorization services) for protecting access to each type of protected resource.
+
+    '
+  shortLink: PaUrouiW
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 1
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 66559
+  url: https://trello.com/c/gL1DIJvm/30-given-the-system-stores-the-users-session-id-in-a-cookie-then-the-attacker-will-gain-access-to-it-via-code-in-another-webpage
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:18:47.202Z'
+  shortUrl: https://trello.com/c/gL1DIJvm
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884ad327a13ec1875a4dd2e
+  idShort: 30
+  checkItemStates: null
+  name: GIVEN the system stores the users session id in a cookie THEN the attacker will gain access to it via code in another webpage
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: 'Verify that session ids stored in cookies have their path set to an appropriately
+    restrictive value for the application
+
+
+    Authentication session tokens should set the “HttpOnly” and “secure” attributes'
+  shortLink: gL1DIJvm
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 67583
+  url: https://trello.com/c/XxqoQF1T/29-given-the-system-allows-user-sessions-then-the-attacker-will-obtain-this-identifier-and-hijack-the-session
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:19:06.105Z'
+  shortUrl: https://trello.com/c/XxqoQF1T
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884ac0b03307df745a76f0b
+  idShort: 29
+  checkItemStates: null
+  name: GIVEN the system allows user sessions THEN the attacker will obtain this identifier and hijack the session
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: Verify that the session id is never disclosed in URLs, error messages, or logs. This includes verifying that the application does not support URL rewriting of session cookies.
+  shortLink: XxqoQF1T
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 69631
+  url: https://trello.com/c/mBeRbovF/28-given-the-system-allows-a-user-to-maintain-a-session-then-the-attacker-will-gain-access-to-a-shared-computer-after-the-user-has
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:20:09.619Z'
+  shortUrl: https://trello.com/c/mBeRbovF
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884ab8943b808acfd5ff30c
+  idShort: 28
+  checkItemStates: null
+  name: GIVEN the system allows a user to maintain a session THEN the attacker will gain access to a shared computer after the user has completed their use
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: mBeRbovF
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 1
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 73727
+  url: https://trello.com/c/18QUokb3/27-given-the-team-have-built-their-own-implementation-of-session-management-then-the-attacker-will-gain-access-to-the-system-by-exp
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:21:20.447Z'
+  shortUrl: https://trello.com/c/18QUokb3
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a95328f5a2bf24cb6666
+  idShort: 27
+  checkItemStates: null
+  name: GIVEN the team have built their own implementation of session management THEN the attacker will gain access to the system by exploiting common implementation bugs
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: 'Verify that there is no custom session manager, or that the custom session
+    manager is resistant against all common session management attacks.
+
+
+    Verify that only session ids generated by the application framework are recognized
+    as active by the application.
+
+
+    Verify that session ids are sufficiently long, random and unique across the correct
+    active session base.'
+  shortLink: 18QUokb3
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 81919
+  url: https://trello.com/c/k18NgBAL/26-given-the-system-has-a-subset-of-very-sensitive-operations-ie-delete-account-then-the-attacker-will-use-an-existing-session-to-i
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:21:44.904Z'
+  shortUrl: https://trello.com/c/k18NgBAL
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a650cd22bec6ba6497e9
+  idShort: 26
+  checkItemStates: null
+  name: GIVEN the system has a subset of very sensitive operations (i.e. delete account) THEN the attacker will use an existing session to invoke it, without re-authenticating
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: k18NgBAL
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 98303
+  url: https://trello.com/c/IHnXmnKn/25-given-the-system-locks-users-out-after-repeatedly-providing-the-wrong-credentials-then-the-attacker-will-use-this-to-deny-servic
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:22:02.027Z'
+  shortUrl: https://trello.com/c/IHnXmnKn
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a48b44ad85e0247ab8d1
+  idShort: 25
+  checkItemStates: null
+  name: GIVEN the system locks users out after repeatedly providing the wrong credentials THEN the attacker will use this to deny service to the application
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: IHnXmnKn
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 131071
+  url: https://trello.com/c/QPpVpDCN/14-given-that-users-enter-a-password-to-access-the-system-then-an-attacker-will-read-it-over-the-users-shoulder-as-they-type-it-int
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:22:20.569Z'
+  shortUrl: https://trello.com/c/QPpVpDCN
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 58849ffa2f8c38e14bfab0bc
+  idShort: 14
+  checkItemStates: null
+  name: GIVEN that users enter a password to access the system THEN an attacker will read it over the users shoulder as they type it into the app
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: QPpVpDCN
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 196607
+  url: https://trello.com/c/sPnlK5bz/15-given-that-the-team-has-built-their-own-user-authentication-implementation-then-the-attacker-will-exploit-weaknesses-in-this-imp
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:22:29.502Z'
+  shortUrl: https://trello.com/c/sPnlK5bz
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a09cef1f16d99c2d29a4
+  idShort: 15
+  checkItemStates: null
+  name: GIVEN that the team has built their own user authentication implementation THEN the attacker will exploit weaknesses in this implementation
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: 'Verify that if an application allows users to authenticate, they use a proven
+    secure authentication mechanism.
+
+
+    Verify that all authentication challenges, whether successful or failed, should
+    respond in the same average response time.'
+  shortLink: sPnlK5bz
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 262143
+  url: https://trello.com/c/kXrUeRDe/16-given-users-set-their-own-password-to-authenticate-to-the-system-then-the-attacker-will-use-a-brute-force-or-dictionary-attack-t
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:22:39.509Z'
+  shortUrl: https://trello.com/c/kXrUeRDe
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a0c4abca94f9cc88012b
+  idShort: 16
+  checkItemStates: null
+  name: GIVEN users set their own password to authenticate to the system THEN the attacker will use a brute force or dictionary attack to gain access
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: Verify that measures are in place to block the use of commonly chosen passwords and weak passphrases.
+  shortLink: kXrUeRDe
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 2
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 327679
+  url: https://trello.com/c/k92WcrCm/17-given-the-system-has-a-mechanism-built-in-to-reset-authentication-credentials-then-the-attacker-will-target-this-mechanism
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:22:46.714Z'
+  shortUrl: https://trello.com/c/k92WcrCm
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a10d27f934e0f4a45397
+  idShort: 17
+  checkItemStates: null
+  name: GIVEN the system has a mechanism built in to reset authentication credentials THEN the attacker will target this mechanism
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: k92WcrCm
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 393215
+  url: https://trello.com/c/xqZD4wP9/18-given-the-system-has-offline-ie-helpdesk-etc-mechanisms-to-reset-authentication-credentials-then-the-attacker-will-target-this-f
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:22:54.919Z'
+  shortUrl: https://trello.com/c/xqZD4wP9
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a130d60eebf9f3128fcf
+  idShort: 18
+  checkItemStates: null
+  name: GIVEN the system has offline (i.e. helpdesk etc) mechanisms to reset authentication credentials THEN the attacker will target this functionality to gain access
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: xqZD4wP9
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 458751
+  url: https://trello.com/c/c3wU3JvG/19-given-the-system-has-functionality-to-reset-a-password-then-an-attacker-will-target-this-functionality-to-gain-access
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-31T08:37:57.853Z'
+  shortUrl: https://trello.com/c/c3wU3JvG
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a1af3a1dd7a5e4b9c7b2
+  idShort: 19
+  checkItemStates: null
+  name: GIVEN the system has functionality to reset a password THEN an attacker will target this functionality to gain access
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: c3wU3JvG
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 524287
+  url: https://trello.com/c/YLN5SyzE/20-given-the-system-allows-users-multiple-attempts-to-authenticate-then-the-attacker-will-brute-force-the-authentication-mechanism
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:23:03.064Z'
+  shortUrl: https://trello.com/c/YLN5SyzE
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a24f06109803d34214ae
+  idShort: 20
+  checkItemStates: null
+  name: GIVEN the system allows users multiple attempts to authenticate THEN the attacker will brute force the authentication mechanism without being detected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: YLN5SyzE
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 589823
+  url: https://trello.com/c/8kHk45nf/21-given-the-system-stores-user-credentials-such-as-passwords-then-the-attacker-will-steal-them-and-decrypt-them-offline
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:23:29.490Z'
+  shortUrl: https://trello.com/c/8kHk45nf
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a2c07e080106275ae9b4
+  idShort: 21
+  checkItemStates: null
+  name: GIVEN the system stores user credentials such as passwords THEN the attacker will steal them and decrypt them offline
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: ''
+  shortLink: 8kHk45nf
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 655359
+  url: https://trello.com/c/akF5jH6O/22-given-we-are-transporting-authentication-credentials-over-http-then-the-attacker-will-use-an-in-the-middle-attack-to-intercept-t
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:24:18.918Z'
+  shortUrl: https://trello.com/c/akF5jH6O
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a326d59560e546b6fa8f
+  idShort: 22
+  checkItemStates: null
+  name: GIVEN we are transporting authentication credentials over HTTP THEN the attacker will use an 'in the middle' attack to intercept the credentials
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a598, idBoard: 5883c5f67c87e1fbda8ad61d, name: Authentication & Access Control,
+    color: yellow, uses: 22}
+  dueComplete: false
+  desc: 'Hello
+
+    ===='
+  shortLink: akF5jH6O
+  idLabels: [5883c5f6ced82109ffe0a598]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 58848165a57c5d03ec1501b7
+- idMembers: []
+  pos: 458751
+  url: https://trello.com/c/dNXOafCS/8-given-our-system-handles-api-keys-or-bearer-tokens-in-the-frontend-then-the-attacker-will-inject-code-into-the-page-to-get-acces
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:24:30.289Z'
+  shortUrl: https://trello.com/c/dNXOafCS
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588486fe57c40fd9fcc4fa02
+  idShort: 8
+  checkItemStates: null
+  name: GIVEN our system handles API keys or bearer tokens in the frontend THEN the attacker will inject code into the page to get access to these secrets
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: dNXOafCS
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 466943
+  url: https://trello.com/c/MB10g4PH/41-given-the-system-validates-data-on-the-frontend-then-the-attacker-will-circumvent-validation-by-posting-direct-to-server
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:24:38.416Z'
+  shortUrl: https://trello.com/c/MB10g4PH
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c05425a9d5d93a3fa296
+  idShort: 41
+  checkItemStates: null
+  name: GIVEN the system validates data on the frontend THEN the attacker will circumvent validation by posting direct to server
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: MB10g4PH
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 475135
+  url: https://trello.com/c/doDfJ9ED/35-given-the-system-handles-access-control-logic-browser-side-then-the-attacker-will-circumvent-by-going-directly-to-the-server
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-31T08:50:24.318Z'
+  shortUrl: https://trello.com/c/doDfJ9ED
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884bada241f7efa6b54035f
+  idShort: 35
+  checkItemStates: null
+  name: GIVEN the system handles access control logic browser side THEN the attacker will circumvent by going directly to the server
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: Verify that the same access control rules implied by the presentation layer are enforced on the server side.
+  shortLink: doDfJ9ED
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 491519
+  url: https://trello.com/c/E2wMECXX/11-given-the-system-handles-authentication-logic-browser-side-then-an-attacker-will-circumvent-authentication-using-injected-code
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-31T08:51:01.463Z'
+  shortUrl: https://trello.com/c/E2wMECXX
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 58849e92b717e1d9abde8d0e
+  idShort: 11
+  checkItemStates: null
+  name: GIVEN the system handles authentication logic browser side THEN an attacker will circumvent authentication using injected code
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: E2wMECXX
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 524287
+  url: https://trello.com/c/RxKPyGvp/9-given-the-system-handles-complex-business-logic-in-web-browser-then-the-attacker-will-attack-the-integrity-of-the-system-by-alte
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:25:06.325Z'
+  shortUrl: https://trello.com/c/RxKPyGvp
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884873aa5d1d4beb6b15e91
+  idShort: 9
+  checkItemStates: null
+  name: GIVEN the system handles complex business logic in web browser THEN the attacker will attack the integrity of the system by altering this logic in the browser
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: RxKPyGvp
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 589823
+  url: https://trello.com/c/fZot8oBY/10-given-the-system-contains-valuable-intellectual-property-in-browser-source-code-then-the-attacker-will-steal-the-code-from-the-p
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:25:16.474Z'
+  shortUrl: https://trello.com/c/fZot8oBY
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884885aab6f96acc1d0919a
+  idShort: 10
+  checkItemStates: null
+  name: GIVEN the system contains valuable intellectual property in browser source code THEN the attacker will steal the code from the page
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: fZot8oBY
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 606207
+  url: https://trello.com/c/aCm07H4E/38-given-users-may-be-tricked-into-visiting-urls-they-did-not-intend-to-then-the-attacker-will-perform-malicious-actions-on-their-b
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:25:25.222Z'
+  shortUrl: https://trello.com/c/aCm07H4E
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884bf307b453eecec8308c2
+  idShort: 38
+  checkItemStates: null
+  name: GIVEN users may be tricked into visiting URLs they did not intend to THEN the attacker will perform malicious actions on their behalf
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: Verify that the application or framework uses strong random anti-CSRF tokens or has another transaction protection mechanism.
+  shortLink: aCm07H4E
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 1
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 614399
+  url: https://trello.com/c/cNYRCOB1/67-given-sensitive-data-which-requires-authentication-is-stored-in-browser-storage-then-the-attacker-will-obtain-it-after-the-authe
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:11:52.603Z'
+  shortUrl: https://trello.com/c/cNYRCOB1
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca4ddb2165d3b02dba26c
+  idShort: 67
+  checkItemStates: null
+  name: GIVEN sensitive data which requires authentication is stored in browser storage THEN the attacker will obtain it after the authenticated session has ended
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: cNYRCOB1
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 638975
+  url: https://trello.com/c/9QBnQUfa/66-given-our-webapp-parses-json-in-javascript-code-then-the-attacker-will-inject-malicious-code-via-this-mechanism
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:25:38.602Z'
+  shortUrl: https://trello.com/c/9QBnQUfa
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca4ce5f0fa3856187f02e
+  idShort: 66
+  checkItemStates: null
+  name: GIVEN our webapp parses JSON in javascript code THEN the attacker will inject malicious code via this mechanism
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: 9QBnQUfa
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 720895
+  url: https://trello.com/c/KPOQDMVW/61-given-our-system-encodes-and-sanitises-output-in-frontend-javascript-code-then-the-attacker-will-circumvent-these-controls
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-31T08:54:36.096Z'
+  shortUrl: https://trello.com/c/KPOQDMVW
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca09d5b37f14b7313bb14
+  idShort: 61
+  checkItemStates: null
+  name: GIVEN our system encodes and sanitises output in frontend javascript code THEN the attacker will circumvent these controls
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59a, idBoard: 5883c5f67c87e1fbda8ad61d, name: Frontend & Mobile,
+    color: orange, uses: 10}
+  dueComplete: false
+  desc: ''
+  shortLink: KPOQDMVW
+  idLabels: [5883c5f6ced82109ffe0a59a]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 588c946189bb51840897c98c
+- idMembers: []
+  pos: 131071
+  url: https://trello.com/c/ydIfvgrU/39-given-the-runtime-is-vulnerable-to-buffer-overflows-then-the-attacker-will-craft-a-payload-and-smash-the-stack
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:25:58.761Z'
+  shortUrl: https://trello.com/c/ydIfvgrU
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c00bd8b097e523df786a
+  idShort: 39
+  checkItemStates: null
+  name: GIVEN the runtime is vulnerable to buffer overflows THEN the attacker will craft a payload and smash the stack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: Ensure that build processes for system level languages have all security flags enabled, such as ASLR, DEP, and security checks.
+  shortLink: ydIfvgrU
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 1
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 196607
+  url: https://trello.com/c/m1yGz5MB/40-given-our-system-accepts-input-then-the-attacker-will-probe-for-weaknesses-in-the-validation-of-that-input-without-being-detecte
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:26:09.290Z'
+  shortUrl: https://trello.com/c/m1yGz5MB
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c031dea491bc7d7f7770
+  idShort: 40
+  checkItemStates: null
+  name: GIVEN our system accepts input THEN the attacker will probe for weaknesses in the validation of that input without being detected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: m1yGz5MB
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 262143
+  url: https://trello.com/c/cdtoNcCW/60-given-the-system-loads-interprets-or-includes-remote-files-based-on-input-then-the-attacker-will-manipulate-input-to-attack-the
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-31T08:53:55.821Z'
+  shortUrl: https://trello.com/c/cdtoNcCW
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca075df695a11d80f3cf9
+  idShort: 60
+  checkItemStates: null
+  name: GIVEN the system loads, interprets or includes remote files based on input THEN the attacker will manipulate input to attack the system
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: cdtoNcCW
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 327679
+  url: https://trello.com/c/S7goS3zb/42-given-our-system-queries-a-sql-or-other-persistence-engine-then-the-attacker-will-carry-out-an-injection-attack
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:26:25.101Z'
+  shortUrl: https://trello.com/c/S7goS3zb
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c08c9d079d17d8e753b4
+  idShort: 42
+  checkItemStates: null
+  name: GIVEN our system queries a SQL or other persistence engine THEN the attacker will carry out an injection attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: S7goS3zb
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 393215
+  url: https://trello.com/c/Opv9ZHfM/43-given-our-system-passes-input-to-an-ldap-server-or-active-directory-then-the-attacker-will-carry-out-an-injection-attack
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:26:30.442Z'
+  shortUrl: https://trello.com/c/Opv9ZHfM
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c0b49d079d17d8e754b2
+  idShort: 43
+  checkItemStates: null
+  name: GIVEN our system passes input to an LDAP server or Active Directory THEN the attacker will carry out an injection attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: Opv9ZHfM
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 458751
+  url: https://trello.com/c/EEy54JD7/44-given-our-system-shells-out-to-an-external-command-based-on-input-data-then-the-attacker-will-perform-a-command-injection-attack
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:26:36.557Z'
+  shortUrl: https://trello.com/c/EEy54JD7
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c0e8badbf7fecee87600
+  idShort: 44
+  checkItemStates: null
+  name: GIVEN our system shells out to an external command based on input data THEN the attacker will perform a command injection attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: EEy54JD7
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 524287
+  url: https://trello.com/c/3W3QXg5U/45-given-our-system-loads-interprets-or-includes-source-files-based-on-input-then-the-attacker-will-exploit-local-file-include-lfi
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-28T14:10:04.723Z'
+  shortUrl: https://trello.com/c/3W3QXg5U
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c12187e766175191de3b
+  idShort: 45
+  checkItemStates: null
+  name: GIVEN our system loads, interprets or includes source files based on input THEN the attacker will exploit local file include (LFI) vulnerabilities
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: 3W3QXg5U
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 589823
+  url: https://trello.com/c/Pw5AwWLO/46-given-our-system-accepts-xml-as-input-then-the-attacker-will-use-common-xml-vulnerabilities-to-attack-the-system
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-28T14:10:08.338Z'
+  shortUrl: https://trello.com/c/Pw5AwWLO
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c141268951e5151e665a
+  idShort: 46
+  checkItemStates: null
+  name: GIVEN our system accepts XML as input THEN the attacker will use common XML vulnerabilities to attack the system
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: Pw5AwWLO
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 655359
+  url: https://trello.com/c/1jupkARw/47-given-the-system-displays-data-entered-by-the-user-in-parts-of-the-web-interface-then-the-attacker-will-perform-reflected-or-sto
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:26:52.114Z'
+  shortUrl: https://trello.com/c/1jupkARw
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c1d69834168705772424
+  idShort: 47
+  checkItemStates: null
+  name: GIVEN the system displays data entered by the user in parts of the web interface THEN the attacker will perform reflected or stored cross site scripting (XSS) attacks
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: 1jupkARw
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 720895
+  url: https://trello.com/c/5TxQbHzv/48-given-our-web-framework-has-model-binding-or-mass-assignment-features-then-the-attacker-will-take-advantage-of-vulnerabilities-i
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-28T14:10:17.046Z'
+  shortUrl: https://trello.com/c/5TxQbHzv
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c1f53a04e20b417c9efd
+  idShort: 48
+  checkItemStates: null
+  name: GIVEN our web framework has model binding or mass assignment features THEN the attacker will take advantage of vulnerabilities in these features
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: 5TxQbHzv
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 786431
+  url: https://trello.com/c/7pEL54wD/49-given-our-system-accepts-input-with-a-particular-structure-or-type-which-we-are-not-validating-against-a-defined-schema-then-the
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:27:04.801Z'
+  shortUrl: https://trello.com/c/7pEL54wD
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c2bd2a23abbd1ea29d4d
+  idShort: 49
+  checkItemStates: null
+  name: GIVEN our system accepts input with a particular structure or type, which we are not validating against a defined schema THEN the attacker will use invalid input to attack the system
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: Verify that all input data is validated, not only HTML form fields but all sources of input such as REST calls, query parameters, HTTP headers, cookies, batch files, RSS feeds, etc; using positive validation (whitelisting), then lesser forms of validation such as greylisting (eliminating known bad strings), or rejecting bad inputs (blacklisting).
+  shortLink: 7pEL54wD
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 851967
+  url: https://trello.com/c/8QTxete3/51-given-the-system-accepts-file-uploads-then-the-attacker-will-upload-a-virus-or-malicious-payload
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-19T08:48:51.347Z'
+  shortUrl: https://trello.com/c/8QTxete3
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884c5d187ef0bfab12f07fb
+  idShort: 51
+  checkItemStates: null
+  name: GIVEN the system accepts file uploads THEN the attacker will upload a virus or malicious payload
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: 'Verify the application code does not execute uploaded data obtained from
+    untrusted sources.
+
+
+    Verify that files obtained from untrusted sources are validated to be of expected
+    type and scanned by antivirus scanners to prevent upload of known malicious content.'
+  shortLink: 8QTxete3
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 983039
+  url: https://trello.com/c/UdHYpVH1/53-given-our-system-uses-http-redirects-as-part-of-the-navigation-mechanism-then-the-attacker-will-exploit-the-inputs-to-the-redire
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:27:14.908Z'
+  shortUrl: https://trello.com/c/UdHYpVH1
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884cccb751cf5d07b037961
+  idShort: 53
+  checkItemStates: null
+  name: GIVEN our system uses HTTP redirects as part of the navigation mechanism THEN the attacker will exploit the inputs to the redirect to forward to a malicious site
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: UdHYpVH1
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 1048575
+  url: https://trello.com/c/DDg651wC/57-given-the-system-accepts-input-from-a-sql-database-or-other-persistent-store-then-the-attacker-could-use-this-input-to-perform-a
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:27:20.755Z'
+  shortUrl: https://trello.com/c/DDg651wC
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588c9b517f093681a800665b
+  idShort: 57
+  checkItemStates: null
+  name: GIVEN the system accepts input from a SQL database or other persistent store THEN the attacker could use this input to perform an injection or XSS attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: DDg651wC
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 1114111
+  url: https://trello.com/c/YFXot8hl/58-given-the-system-accepts-data-from-the-file-system-then-an-attacker-could-use-this-input-to-perform-an-injection-or-xss-attack
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-01-28T14:10:34.970Z'
+  shortUrl: https://trello.com/c/YFXot8hl
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588c9b78526a357f8d46e9d8
+  idShort: 58
+  checkItemStates: null
+  name: GIVEN the system accepts data from the file system THEN an attacker could use this input to perform an injection or XSS attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: YFXot8hl
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 1179647
+  url: https://trello.com/c/WDfCRqGW/59-given-the-system-does-not-check-character-encoding-then-the-attacker-will-inject-dangerous-characters-such-as-0-to-circumvent-va
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:27:30.237Z'
+  shortUrl: https://trello.com/c/WDfCRqGW
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588c9c0a1d4521ad5640ca2f
+  idShort: 59
+  checkItemStates: null
+  name: GIVEN the system does not check character encoding THEN the attacker will inject dangerous characters such as ', ", <, ;, &, \0 to circumvent validation
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: WDfCRqGW
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 1245183
+  url: https://trello.com/c/sDoRBUa6/62-given-our-system-accepts-data-over-http-then-the-attacker-will-use-a-http-parameter-pollution-attack-to-circumvent-validation
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:27:38.158Z'
+  shortUrl: https://trello.com/c/sDoRBUa6
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca2cfefb0c745254e5d29
+  idShort: 62
+  checkItemStates: null
+  name: GIVEN our system accepts data over HTTP THEN the attacker will use a HTTP parameter pollution attack to circumvent validation
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: sDoRBUa6
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 1310719
+  url: https://trello.com/c/hKwqjdBq/63-given-the-system-accepts-unstructured-unvalidated-data-then-the-attacker-will-attack-the-system-by-including-a-malicious-payload
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:27:53.914Z'
+  shortUrl: https://trello.com/c/hKwqjdBq
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca3f26d870557bdc8d5cd
+  idShort: 63
+  checkItemStates: null
+  name: GIVEN the system accepts unstructured, unvalidated data THEN the attacker will attack the system by including a malicious payload
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: hKwqjdBq
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 1
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 1376255
+  url: https://trello.com/c/8WaNcfUv/64-given-our-web-framework-appropriately-html-encodes-output-then-the-attacker-will-take-advantages-of-places-where-we-have-disable
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:28:07.837Z'
+  shortUrl: https://trello.com/c/8WaNcfUv
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588ca459e7b932852e06326c
+  idShort: 64
+  checkItemStates: null
+  name: GIVEN our web framework appropriately HTML encodes output THEN the attacker will take advantages of places where we have disabled it
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a597, idBoard: 5883c5f67c87e1fbda8ad61d, name: Input & Output,
+    color: red, uses: 19}
+  dueComplete: false
+  desc: ''
+  shortLink: 8WaNcfUv
+  idLabels: [5883c5f6ced82109ffe0a597]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884bedd108509195c00d0fa
+- idMembers: []
+  pos: 65535
+  url: https://trello.com/c/vqoJkF4U/1-given-we-are-sending-sensitive-data-across-the-internet-or-other-network-then-the-attacker-will-use-an-in-the-middle-attack-to-i
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:30:49.322Z'
+  shortUrl: https://trello.com/c/vqoJkF4U
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5883d5676371c2033f1cadb4
+  idShort: 1
+  checkItemStates: null
+  name: GIVEN we are sending sensitive data across the Internet or other network THEN the attacker will use an 'in the middle' attack to intercept the data
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: 'Hello
+
+    ===='
+  shortLink: vqoJkF4U
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 66559
+  url: https://trello.com/c/3cceCqU4/73-given-our-source-code-is-stored-in-a-source-control-repository-then-the-attacker-will-take-advantage-of-permissive-access-contro
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T22:00:59.862Z'
+  shortUrl: https://trello.com/c/3cceCqU4
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d0c6a8e48f99e8bc3c569
+  idShort: 73
+  checkItemStates: null
+  name: GIVEN our source code is stored in a source control repository THEN the attacker will take advantage of permissive access control to inject malicious code
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: 3cceCqU4
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 69631
+  url: https://trello.com/c/cXokaWZo/71-given-the-teams-continuous-integration-server-is-connected-to-the-internet-then-the-attacker-will-exploit-any-unauthenticated-fu
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T22:00:50.379Z'
+  shortUrl: https://trello.com/c/cXokaWZo
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d08f985dd8c9f08cb2cc3
+  idShort: 71
+  checkItemStates: null
+  name: GIVEN the team's continuous integration server is connected to the Internet THEN the attacker will exploit any unauthenticated functionality
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: cXokaWZo
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 71679
+  url: https://trello.com/c/UbY3TMZn/72-given-that-our-continuous-integration-server-needs-access-to-environment-passwords-and-secrets-in-order-to-deploy-then-the-attac
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T22:00:39.067Z'
+  shortUrl: https://trello.com/c/UbY3TMZn
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d09615910ec63a524d035
+  idShort: 72
+  checkItemStates: null
+  name: GIVEN that our continuous integration server needs access to environment passwords and secrets in order to deploy THEN the attacker will obtain these secrets to escalate privilege
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: UbY3TMZn
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 73727
+  url: https://trello.com/c/9McJfiGN/70-given-software-artefacts-are-promoted-from-test-environments-to-production-then-the-attacker-will-spoof-or-tamper-with-these-art
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T22:00:28.573Z'
+  shortUrl: https://trello.com/c/9McJfiGN
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d07d8de891b611e14a8f1
+  idShort: 70
+  checkItemStates: null
+  name: GIVEN software artefacts are promoted from test environments to production THEN the attacker will spoof or tamper with these artefacts to inject malicious code
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: 9McJfiGN
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 81919
+  url: https://trello.com/c/qQ5F6oJh/69-given-we-deploy-to-production-from-a-continuous-integration-server-then-the-attacker-will-use-access-to-escalate-privilege
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T22:00:18.304Z'
+  shortUrl: https://trello.com/c/qQ5F6oJh
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d0782bb6039be6173e7b4
+  idShort: 69
+  checkItemStates: null
+  name: GIVEN we deploy to production from a continuous integration server THEN the attacker will use access to escalate privilege
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: qQ5F6oJh
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 98303
+  url: https://trello.com/c/WlrCTx4d/54-given-the-source-code-checked-in-by-the-team-will-be-deployed-to-production-then-the-attacker-will-add-malicious-code-a-back-doo
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T22:00:07.867Z'
+  shortUrl: https://trello.com/c/WlrCTx4d
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884cd3687c2b50b8a6e1557
+  idShort: 54
+  checkItemStates: null
+  name: GIVEN the source code checked in by the team will be deployed to production THEN the attacker will add malicious code, a back door, Easter egg or logic flaws.
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: Verify that a code review looks for malicious code, back doors, Easter eggs, and logic flaws.
+  shortLink: WlrCTx4d
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 114687
+  url: https://trello.com/c/7bSlERJg/55-given-the-system-will-display-information-about-system-components-and-versions-then-the-attacker-will-use-this-information-to-di
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:59:40.605Z'
+  shortUrl: https://trello.com/c/7bSlERJg
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884cde3f30fcc197e041fbb
+  idShort: 55
+  checkItemStates: null
+  name: GIVEN the system will display information about system components and versions THEN the attacker will use this information to discover new ways to attack without being detected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: 7bSlERJg
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 131071
+  url: https://trello.com/c/Uee1q22x/7-given-the-system-depends-on-infrastructure-components-then-the-attacker-will-exploit-published-vulnerabilities-in-those-componen
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:59:27.707Z'
+  shortUrl: https://trello.com/c/Uee1q22x
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884817be94898d94fea33ff
+  idShort: 7
+  checkItemStates: null
+  name: GIVEN the system depends on infrastructure components THEN the attacker will exploit published vulnerabilities in those components
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: "All components should be up to date with proper security configuration(s)\
+    \ and version(s). \n\nThis should include removal of unneeded configurations and\
+    \ folders such as sample applications, platform documentation, and default or\
+    \ example users.\n\nVerify that third party components come from trusted repositories."
+  shortLink: Uee1q22x
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 131071.25
+  url: https://trello.com/c/5Nv3NCn8/23-given-our-application-container-persistence-engine-etc-has-an-administrative-web-interface-then-the-attacker-will-target-this-an
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:59:20.394Z'
+  shortUrl: https://trello.com/c/5Nv3NCn8
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 5884a3e0cd16ddfae14886df
+  idShort: 23
+  checkItemStates: null
+  name: GIVEN our application container, persistence engine, etc has an administrative web interface THEN the attacker will target this and gain access
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: 'Verify not using default credentials
+
+
+    Verify that administrative interfaces are not accessible to untrusted parties'
+  shortLink: 5Nv3NCn8
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData:
+    emoji: {}
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: true
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 196607.5
+  url: https://trello.com/c/9y7wgfRs/76-given-the-team-has-shell-access-to-infrastructure-running-the-system-then-the-attacker-will-use-brute-force-or-dictionary-attack
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:59:13.259Z'
+  shortUrl: https://trello.com/c/9y7wgfRs
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d11f12bb9e339a332a6dd
+  idShort: 76
+  checkItemStates: null
+  name: GIVEN the team has shell access to infrastructure running the system THEN the attacker will use brute force or dictionary attacks on credentials to gain root access
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: 9y7wgfRs
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 262143.5
+  url: https://trello.com/c/WlorZjfq/77-given-members-of-the-team-leave-the-project-then-an-attacker-will-attack-the-system-using-privileged-credentials-which-should-ha
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:58:38.503Z'
+  shortUrl: https://trello.com/c/WlorZjfq
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d132729acae85473e5f2a
+  idShort: 77
+  checkItemStates: null
+  name: GIVEN members of the team leave the project THEN an attacker will attack the system using privileged credentials which should have been removed
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: WlorZjfq
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 327679.5
+  url: https://trello.com/c/sUnACc0G/78-given-the-team-have-cloud-accounts-with-administrative-access-then-the-attacker-will-create-an-additional-account-without-being
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:57:58.942Z'
+  shortUrl: https://trello.com/c/sUnACc0G
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d132f05a82df9e8dc1bb0
+  idShort: 78
+  checkItemStates: null
+  name: GIVEN the team have cloud accounts with administrative access THEN the attacker will create an additional account without being detected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: sUnACc0G
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 393215.5
+  url: https://trello.com/c/b72pN4C3/79-given-data-is-transported-from-users-or-other-system-components-via-a-network-then-the-attacker-will-carry-out-a-network-in-the
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:57:26.235Z'
+  shortUrl: https://trello.com/c/b72pN4C3
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1a827327fa8180e57d02
+  idShort: 79
+  checkItemStates: null
+  name: GIVEN data is transported from users or other system components via a network THEN the attacker will carry out a network 'in the middle' attack
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: b72pN4C3
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 458751.5
+  url: https://trello.com/c/aXKU7ypW/80-given-data-is-stored-at-rest-on-the-cloud-vendors-physical-storage-then-the-attacker-will-access-it-after-it-has-been-deallocate
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:57:08.449Z'
+  shortUrl: https://trello.com/c/aXKU7ypW
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1ac91088075b764ecb6b
+  idShort: 80
+  checkItemStates: null
+  name: GIVEN data is stored at rest on the cloud vendors physical storage THEN the attacker will access it after it has been deallocated or released from use
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: aXKU7ypW
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 524287.5
+  url: https://trello.com/c/mPR5OIGc/81-given-the-system-uses-cloud-resources-in-a-different-legal-territory-then-the-attacker-will-take-advantage-of-legal-differences
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:57:02.909Z'
+  shortUrl: https://trello.com/c/mPR5OIGc
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1b90b54e769fb0e23b54
+  idShort: 81
+  checkItemStates: null
+  name: GIVEN the system uses cloud resources in a different legal territory THEN the attacker will take advantage of legal differences in that territory to compromise confidentiality of data
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: mPR5OIGc
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 589823.5
+  url: https://trello.com/c/gNDFbnIf/82-given-the-system-uses-resources-provided-by-a-cloud-vendor-then-the-attacker-will-attack-the-system-by-gaining-access-to-the-clo
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:56:48.907Z'
+  shortUrl: https://trello.com/c/gNDFbnIf
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1bcccb8bb8430c4a711d
+  idShort: 82
+  checkItemStates: null
+  name: GIVEN the system uses resources provided by a cloud vendor THEN the attacker will attack the system by gaining access to the cloud vendor's infrastructure
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: gNDFbnIf
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 655359.5
+  url: https://trello.com/c/0VOht2pw/83-given-the-system-is-hosted-on-virtualised-cloud-infrastructure-then-the-attacker-will-compromise-the-system-from-a-resource-belo
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:56:04.932Z'
+  shortUrl: https://trello.com/c/0VOht2pw
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1c37686349ad8e077ac6
+  idShort: 83
+  checkItemStates: null
+  name: GIVEN the system is hosted on virtualised cloud infrastructure THEN the attacker will compromise the system from a resource belonging to another of the cloud vendor's clients
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: 0VOht2pw
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 720895.5
+  url: https://trello.com/c/L2KMoPP6/84-given-our-system-is-running-on-a-platform-as-a-service-operated-by-a-third-party-then-the-attacker-will-compromise-vulnerabiliti
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:55:43.141Z'
+  shortUrl: https://trello.com/c/L2KMoPP6
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1ca45d08a384b208456e
+  idShort: 84
+  checkItemStates: null
+  name: GIVEN our system is running on a platform as a service operated by a third party THEN the attacker will compromise vulnerabilities in that PaaS
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: L2KMoPP6
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 786431.5
+  url: https://trello.com/c/HxTaTAfz/85-given-our-system-is-supported-by-cloud-services-then-the-attacker-will-use-the-cloud-admin-console-to-escalate-privilege
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:55:35.704Z'
+  shortUrl: https://trello.com/c/HxTaTAfz
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1d2cb025defd01fad1a8
+  idShort: 85
+  checkItemStates: null
+  name: GIVEN our system is supported by cloud services THEN the attacker will use the cloud admin console to escalate privilege
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: HxTaTAfz
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 851967.5
+  url: https://trello.com/c/A1jKwTjR/86-given-our-team-has-root-or-administrative-access-to-the-system-then-the-attacker-will-compromise-their-laptop-or-other-device-to
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:55:52.445Z'
+  shortUrl: https://trello.com/c/A1jKwTjR
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d1d9bafd75d7f0fed3716
+  idShort: 86
+  checkItemStates: null
+  name: GIVEN our team has root or administrative access to the system THEN the attacker will compromise their laptop or other device to access the system
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: A1jKwTjR
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 884735.5
+  url: https://trello.com/c/yEjDf7y0/75-given-we-are-using-a-continuous-integration-server-to-build-or-deploy-the-system-then-the-attacker-will-use-it-to-carry-out-an-a
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T16:09:38.365Z'
+  shortUrl: https://trello.com/c/yEjDf7y0
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 588d0f3fde57a82847551191
+  idShort: 75
+  checkItemStates: null
+  name: GIVEN we are using a continuous integration server to build or deploy the system THEN the attacker will use it to carry out an attack undetected
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  - {id: 5883c5f6ced82109ffe0a59c, idBoard: 5883c5f67c87e1fbda8ad61d, name: Detection,
+    color: purple, uses: 1}
+  dueComplete: false
+  desc: ''
+  shortLink: yEjDf7y0
+  idLabels: [5883c5f6ced82109ffe0a59b, 5883c5f6ced82109ffe0a59c]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 917503.5
+  url: https://trello.com/c/EAGZqtw4/87-given-our-system-is-hosted-on-the-internet-then-the-attacker-will-use-ddos-as-a-service-to-attack-the-system
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:53:55.694Z'
+  shortUrl: https://trello.com/c/EAGZqtw4
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 589053347afa123e5fffc835
+  idShort: 87
+  checkItemStates: null
+  name: GIVEN our system is hosted on the Internet THEN the attacker will use DDoS as a service to attack the system
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: EAGZqtw4
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 983039.5
+  url: https://trello.com/c/afCQytMf/89-given-the-system-transmits-data-via-tls-aka-ssl-or-https-then-the-attacker-will-exploit-tls-common-misconfigurations-to-intercep
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T15:06:15.849Z'
+  shortUrl: https://trello.com/c/afCQytMf
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 58a862d05d0bcfcbf2f148d6
+  idShort: 89
+  checkItemStates: null
+  name: GIVEN the system transmits data via TLS (aka SSL or HTTPS) THEN the attacker will exploit TLS common misconfigurations to intercept the contents
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: afCQytMf
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
+- idMembers: []
+  pos: 1048575.5
+  url: https://trello.com/c/q92CH0VD/90-given-the-system-has-server-side-components-then-the-attacker-will-maintain-access-to-the-network-by-spawning-a-malicious-proces
+  idBoard: 5883c5f67c87e1fbda8ad61d
+  dateLastActivity: '2017-02-18T21:53:40.239Z'
+  shortUrl: https://trello.com/c/q92CH0VD
+  idMembersVoted: []
+  idAttachmentCover: null
+  subscribed: false
+  manualCoverAttachment: false
+  id: 58a87135d6362de176659c5a
+  idShort: 90
+  checkItemStates: null
+  name: GIVEN the system has server-side components THEN the attacker will maintain access to the network by spawning a malicious process
+  idChecklists: []
+  closed: false
+  labels:
+  - {id: 5883c5f6ced82109ffe0a59b, idBoard: 5883c5f67c87e1fbda8ad61d, name: Devops & Cloud,
+    color: blue, uses: 25}
+  dueComplete: false
+  desc: ''
+  shortLink: q92CH0VD
+  idLabels: [5883c5f6ced82109ffe0a59b]
+  descData: null
+  badges:
+    subscribed: false
+    viewingMemberVoted: false
+    fogbugz: ''
+    dueComplete: false
+    checkItemsChecked: 0
+    attachmentsByType:
+      trello: {board: 0, card: 0}
+    votes: 0
+    comments: 0
+    due: null
+    attachments: 0
+    checkItems: 0
+    description: false
+  due: null
+  limits: null
+  idList: 5884a426619feb0b4f6f3294
