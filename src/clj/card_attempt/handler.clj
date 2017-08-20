@@ -3,6 +3,7 @@
             [compojure.route :refer [not-found resources]]
             [hiccup.page :refer [include-js include-css html5]]
             [hiccup.util :refer [escape-html]]
+            [clojure.java.io :as io]
             [card-attempt.middleware :refer [wrap-middleware]]
             [config.core :refer [env]]
             [trello.core :refer [make-client]]
@@ -66,21 +67,28 @@
   (do (spit filename (yaml/generate-string fromtrello)))
   )
 
+(defn load-from-filename-or-fetch-from-remote [filename remote]
+  (if (.exists (io/as-file filename))
+    (yaml/parse-string (slurp filename))
+    (do (spit filename (yaml/generate-string (client t/get remote)))
+        (load-from-filename-or-fetch-from-remote filename remote))
+    ))
+
 (def load-attackers
-  (let [attackers (client t/get "boards/uxQyvaUl/cards")]
-    (do (save-vulns attackers "attackers.yml")
-      (concat
+  (let [attackers
+        (load-from-filename-or-fetch-from-remote "attackers.yml" "boards/uxQyvaUl/cards" )]
+    (concat
       (map map-attacker-card attackers)
       (map blank-attacker [1 2 3])
-      ))))
+      )))
 
 (def load-vulnerabilities
-  (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")]
-    (do (save-vulns vulnerabilities "vulnerabilities.yml")
-        (concat
-          (map map-vulnerability-card vulnerabilities)
-          (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
-        ))))
+  (let [vulnerabilities
+        (load-from-filename-or-fetch-from-remote "vulnerabilities.yml" "boards/ZiANFBCJ/cards")]
+    (concat
+      (map map-vulnerability-card vulnerabilities)
+      (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
+      )))
 
 (defn style-to-line [line style]
   [:span {:class style} line]
