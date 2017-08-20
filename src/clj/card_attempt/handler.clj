@@ -68,12 +68,17 @@
      (map blank-attacker [1 2 3])
      )))
 
+(defn save-vulns [fromtrello]
+  (println fromtrello)
+  )
+
 (def load-vulnerabilities
   (let [vulnerabilities (client t/get "boards/ZiANFBCJ/cards")]
-    (concat
-      (map map-vulnerability-card vulnerabilities)
-      (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
-    )))
+    (do (save-vulns vulnerabilities)
+        (concat
+          (map map-vulnerability-card vulnerabilities)
+          (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10]))
+        )))
 
 (defn style-to-line [line style]
   [:span {:class style} line]
@@ -140,8 +145,6 @@
 
 
 (defroutes routes
-           ;(GET "/" [] (loading-page))
-           ;(GET "/about" [] (loading-page))
   (GET "/vulnerabilities" [] (vulnerability-page))
   (GET "/attackers" [] (attackers-page))
 
