@@ -19,9 +19,14 @@
 (defrecord threat [title])
 
 (def threats
-  [ (threat. "a"),
-    (threat. "b"),
-    (threat. "c")])
+  [
+   (threat. "A cyber criminal group, hacktivist or nation state tries to steal data from the system"),
+   (threat. "A cyber criminal or hacktivist group mounts a denial of service attack on the system"),
+   (threat. "A regulator issues a penalty under the General Data Protection Regulation"),
+   (threat. "An end user or third party commits fraud by providing false information"),
+   (threat. "A disgruntled or angry employee or ex-exployee abuses access to embarrass or hurt the organisation"),
+   (threat. "A random botnet or scriptkiddy mounts a simple automated attack on the system"),
+   (threat. "An internal user casually accesses information they are not entited to out of curiosity")])
 
 (defn draw-threat [card]
   [:div.bigcard
