@@ -144,7 +144,9 @@ div.card-threat-title {
 }
 
 div.card-category {
+  font-weight: 900;
   bottom: 0;
+  color: #32af51;
   position: absolute;
   font-weight: bold;
   padding-top: 0.2cm;

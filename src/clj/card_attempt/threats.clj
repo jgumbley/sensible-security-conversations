@@ -21,7 +21,7 @@
 (defrecord impact [bullets])
 
 (def threats[
-             (threat. "A cyber criminal, hacktivist or nation state group tries to steal data from the system"
+             (threat. "A cyber criminal, hacktivist or nation state group try to steal data from the system"
                       (likelihood. (list
                                    "What value might data in the system have to an attacker?"
                                    "Does the data have exchange value? Can it be sold?"
@@ -34,7 +34,7 @@
                                    "May trigger an investigation and penalties by regulator"
                                    "Possible financial cost in ransoms"
                                    "Impact if data used to escalate privledge on more sensitive systems?"))),
-             (threat. "A cyber criminal or hacktivist group mounts a denial of service attack on the system"
+             (threat. "A cyber criminal or hacktivist group mount a denial of service attack on the system"
                       (likelihood. (list
                                    "Could an attacker demand a ransom were your system unavailable?"
                                    "Is it in the interest of any group to impact your reputation by taking your system down?"
@@ -62,7 +62,7 @@
                                     "Are there previous examples of this kind of threat?"))
                       (impact.     (list
                                     "What is the impact on your org?"))),
-             (threat. "A new form of ransomware or a wiper worm tries to spread via adjacent networks"
+             (threat. "A new form of ransomware or a wiper worm tries to spread from adjacent networks"
                       (likelihood. (list
                                     "Does the system connect to other networks?"))
                       (impact.     (list
