@@ -5,6 +5,7 @@
             [hiccup.util :refer [escape-html]]
             [clojure.java.io :as io]
             [card-attempt.middleware :refer [wrap-middleware]]
+            [card-attempt.threats :refer [threats-page]]
             [config.core :refer [env]]
             [trello.core :refer [make-client]]
             [trello.client :as t]
@@ -84,7 +85,7 @@
 
 (def load-vulnerabilities
   (let [vulnerabilities
-        (load-from-filename-or-fetch-from-remote "vulnerabilities.yml" "boards/ZiANFBCJ/cards")]
+        (load-from-filename-or-fetch-from-remote "vulnerabilities.yml" "boards/70WGBqot/cards")]
     (concat
       (map map-vulnerability-card vulnerabilities)
       (map blank-vulnerability [1 2 3 4 5 6 7 8 9 10])
@@ -137,6 +138,7 @@
      ))
   )
 
+
 ;-----------------------------------------------------
 
 (def mount-target
@@ -157,6 +159,7 @@
 (defroutes routes
   (GET "/vulnerabilities" [] (vulnerability-page))
   (GET "/attackers" [] (attackers-page))
+  (GET "/threats" [] (threats-page))
 
            (resources "/")
            (not-found "Not Found"))
