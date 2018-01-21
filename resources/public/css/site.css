@@ -76,6 +76,20 @@ div.bigcard-sothat {
   font-size: 2.3em;
   }
 
+div.card-threat-main {
+    font-family: 'Open Sans Extra-Bold', Verdana, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+    font-size: 2.0em;
+}
+
+div.card-threat-title {
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+    font-size: 2.0em;
+}
+
 div.card-category {
   font-family: 'Open Sans Extra-Bold', Verdana, Helvetica, Arial, sans-serif;
   bottom: 0;
