@@ -17,6 +17,40 @@ div.bigcard {
     position: relative;
 }
 
+div.bigcard-header {
+    margin: 0cm;
+    width: 20.80cm;
+    height: 6.5cm;
+    float: left;
+    border-style: solid;
+    border-width: 0.0px;
+    border-color: #eeeeee;
+    background-color: white;
+    position: relative;
+}
+
+div.bigcard-column {
+    margin: 0cm;
+    width: 10.4cm;
+    float: left;
+    border-style: solid;
+    border-width: 0.0px;
+    border-color: #eeeeee;
+    background-color: white;
+    line-height: 2.5em;
+    position: relative;
+}
+
+ul {
+    list-style-type: square;
+}
+
+div.bigcard-column ul {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    font-weight: lighter;
+}
+
 div.card {
   color: #666666;
   margin: 0cm;
@@ -77,21 +111,39 @@ div.bigcard-sothat {
   }
 
 div.card-threat-main {
-    font-family: 'Open Sans Extra-Bold', Verdana, Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 800;
+    color: #df9d9b;
     padding-top: 0.2cm;
     padding-left: 0.2cm;
     font-size: 2.0em;
+}
+
+div.card-threat-subtitle {
+    font-weight: 800;
+    color: #b7b7b7;
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+    font-size: 1.3em;
+}
+
+
+div.card-threat-dotdot {
+    font-weight: lighter;
+    color: grey;
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+    font-size: 1.0em;
 }
 
 div.card-threat-title {
+    font-weight: lighter;
     padding-top: 0.2cm;
     padding-left: 0.2cm;
-    font-size: 2.0em;
+    line-height: 1.1em;
+    font-size: 2.8em;
 }
 
 div.card-category {
-  font-family: 'Open Sans Extra-Bold', Verdana, Helvetica, Arial, sans-serif;
   bottom: 0;
   position: absolute;
   font-weight: bold;
