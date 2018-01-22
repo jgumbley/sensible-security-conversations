@@ -6,6 +6,7 @@
             [clojure.java.io :as io]
             [card-attempt.middleware :refer [wrap-middleware]]
             [card-attempt.threats :refer [threats-page]]
+            [card-attempt.vulns :refer [vulns-page]]
             [config.core :refer [env]]
             [trello.core :refer [make-client]]
             [trello.client :as t]
@@ -160,6 +161,7 @@
   (GET "/vulnerabilities" [] (vulnerability-page))
   (GET "/attackers" [] (attackers-page))
   (GET "/threats" [] (threats-page))
+  (GET "/vulns" [] (vulns-page))
 
            (resources "/")
            (not-found "Not Found"))

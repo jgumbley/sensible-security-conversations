@@ -100,21 +100,17 @@
                                     "What is the privacy impact on the individual?"
                                     "Could there be regulatory impact?"))),
              (threat. " "
-                      (likelihood. (list
-                                    " "))
-                      (impact.     (list
-                                    " "))),
+                      (likelihood. (list))
+                      (impact.     (list))),
              (threat. " "
-                      (likelihood. (list
-                                    " "))
-                      (impact.     (list
-                                    " "))),
+                      (likelihood. (list))
+                      (impact.     (list))),
              (threat. " "
-                      (likelihood. (list
-                                    " "))
-                      (impact.     (list
-                                    " "))),
-                      ])
+                      (likelihood. (list))
+                      (impact.     (list))),
+             (threat. " "
+                      (likelihood. (list))
+                      (impact.     (list))),])
 
 (defn draw-threat [card]
   [:div.bigcard
