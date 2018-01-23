@@ -7,6 +7,7 @@
             [card-attempt.middleware :refer [wrap-middleware]]
             [card-attempt.threats :refer [threats-page]]
             [card-attempt.vulns :refer [vulns-page]]
+            [card-attempt.assets :refer [assets-page]]
             [config.core :refer [env]]
             [trello.core :refer [make-client]]
             [trello.client :as t]
@@ -162,6 +163,7 @@
   (GET "/attackers" [] (attackers-page))
   (GET "/threats" [] (threats-page))
   (GET "/vulns" [] (vulns-page))
+  (GET "/assets" [] (assets-page))
 
            (resources "/")
            (not-found "Not Found"))
