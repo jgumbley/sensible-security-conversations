@@ -20,7 +20,7 @@
 (defrecord vulnerability [title])
 
 (def vulnerabilities[
-                     (focus. "Oppotunist cyber attack"
+                     (focus. "Opportunist cyber attack"
                              (list
                               (vulnerability. "Running version of infrastructure dependency with known vulnerability")
                               (vulnerability. "Running version of application dependency with known vulnerability")
@@ -28,6 +28,7 @@
                               (vulnerability. "Developer mode tools or default admin credentials are enabled")
                               (vulnerability. "Unnecessary network services are exposed by underlying infrastructure")
                               (vulnerability. "Fails to filter network (layer 2/3) denial of service from the Internet")
+                              (vulnerability. "Possible for another tenant to read deallocated cloud storage")
                               ))
                      (focus. "Determined cyber attack"
                              (list
