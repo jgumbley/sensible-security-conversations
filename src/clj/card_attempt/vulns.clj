@@ -160,6 +160,22 @@
                      ])
 
 
+(defn draw-vuln-summary [focus]
+  [:div.bigcard
+   [:div.bigcard-header
+    [:div.card-threat-title (:title focus)]
+    [:div.card-threat-subtitle "DESCRIPTION"]
+    [:table
+     [:theads [:th "Relevant?"] [:th "Mitigated?"] [:th "Not sure?"] [:th "Follow up?"] [:th "Vulnerability"]]
+     (for [vuln (:vulnerabilities focus)]
+       [:tr [:td "Relevant?"] [:td "Mitigated?"] [:td "Not sure?"] [:td "Follow up?"] [:td (:title vuln)]]
+       )
+     ]
+    ]
+   [:div.card-category "Sensible Conversations about Security"]
+   ]
+  )
+
 (defn draw-vuln [focus vuln]
   [:div.bigcard
    [:div.bigcard-header
@@ -173,6 +189,15 @@
    ]
   )
 
+
+(defn vulns-summary-page []
+  (let [vulns vulnerabilities]
+    (html5
+     (head)
+     [:body {:class "body-container"}
+      (for [focus vulns] (draw-vuln-summary focus) )
+      ]
+     )))
 
 (defn vulns-page []
   (let [vulns vulnerabilities]

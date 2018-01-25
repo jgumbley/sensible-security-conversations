@@ -6,7 +6,7 @@
             [clojure.java.io :as io]
             [card-attempt.middleware :refer [wrap-middleware]]
             [card-attempt.threats :refer [threats-page]]
-            [card-attempt.vulns :refer [vulns-page]]
+            [card-attempt.vulns :refer [vulns-page vulns-summary-page]]
             [card-attempt.assets :refer [assets-page]]
             [config.core :refer [env]]
             [trello.core :refer [make-client]]
@@ -162,6 +162,7 @@
   (GET "/vulnerabilities" [] (vulnerability-page))
   (GET "/attackers" [] (attackers-page))
   (GET "/threats" [] (threats-page))
+  (GET "/vulns-summary" [] (vulns-summary-page))
   (GET "/vulns" [] (vulns-page))
   (GET "/assets" [] (assets-page))
 
