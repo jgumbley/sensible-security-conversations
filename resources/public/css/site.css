@@ -126,6 +126,21 @@ div.card-threat-subtitle {
     font-size: 1.3em;
 }
 
+table {
+    margin: 5px;
+    line-height: 1.2em;
+}
+th {
+    font-size: 0.5em;
+    text-align: left;
+    font-weight: lighter;
+}
+
+td {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    text-align: left;
+}
 
 div.card-threat-dotdot {
     font-weight: lighter;
@@ -166,6 +181,7 @@ div.card-category {
   line-height: 1.5em;
   background-color: grey;
 }
+
 
 span.green {
   color: #32af51;

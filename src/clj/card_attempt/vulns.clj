@@ -20,7 +20,7 @@
 (defrecord vulnerability [title])
 
 (def vulnerabilities[
-                     (focus. "Opportunist cyber attack"
+                     (focus. "Opportunist cyber attack on infrastructure"
                              (list
                               (vulnerability. "Running version of infrastructure dependency with known vulnerability")
                               (vulnerability. "Running version of application dependency with known vulnerability")
@@ -30,9 +30,8 @@
                               (vulnerability. "Fails to filter network (layer 2/3) denial of service from the Internet")
                               (vulnerability. "Possible for another tenant to read deallocated cloud storage")
                               ))
-                     (focus. "Determined cyber attack"
+                     (focus. "Determined cyber attack on infrastructure"
                              (list
-                              (vulnerability. "Possible to bribe or extort someone with deep level of technical access")
                               (vulnerability. "Running version of a dependency with 'zero day' vulnerability")
                               (vulnerability. "Possible to escalate privledge from another system")
                               (vulnerability. "Able to escalate privledge via cloud vendor side channel attack")
@@ -63,34 +62,26 @@
                               (vulnerability. "Lack of data retention policy for personal data")
                               (vulnerability. "Personal data is being stored without a justification for processing")
                               ))
-                     (focus. "Implementation of input handling"
+                     (focus. "Server-side implementation"
                              (list
-                              (vulnerability. "Fails to prevent Cross Site Scripting (XSS)")
-                              (vulnerability. "Fails to prevent reflected Cross Site Scripting (XSS)")
+                              (vulnerability. "Fails to prevent stored or reflected Cross Site Scripting (XSS)")
                               (vulnerability. "File upload feature fails to block malware")
-                              (vulnerability. "Fails to prevent SQL injection")
-                              (vulnerability. "Fails to prevent XML injection (XML bombs and XXE)")
-                              (vulnerability. "Fails to prevent LDAP injection")
+                              (vulnerability. "Fails to prevent SQL, XML (XXE) or LDAP injection")
                               (vulnerability. "Fails to prevent shell injection")
                               (vulnerability. "Fails to prevent open redirects")
-                              (vulnerability. "Fails to prevent code injection via json")
                               (vulnerability. "Fails to prevent a stack overflow")
-                              (vulnerability. "Fails to prevent clickjacking")
-                              (vulnerability. "It is possible for attacker to tamper with cookies")
                               (vulnerability. "Fails to prevent Cross-site request forgery (CSRF)")
+                              (vulnerability. "It is possible for attacker to tamper with cookies")
                               (vulnerability. "Framework support for mass binding can be exploited")
-                              (vulnerability. "Lack of access control on resources not intended to be discoverable to user")
                               (vulnerability. "Alternate character encodings can be used to circumvent protections")
                               (vulnerability. "User forms can be completed in a scripted manner")
                               (vulnerability. "Lack of rate limiting allows 'scraping' or 'spidering' of valuable data")
-                              (vulnerability. "URL paths can be manipulated to access system files")
-                              (vulnerability. "URL paths can be manipulated to load and execute remote files")
-                              (vulnerability. "URL paths can be manipulated to access unauthorised resources")
+                              (vulnerability. "URL paths can be manipulated to access system files, load remote files or access unauthorised resources")
                               (vulnerability. "Developers have disabled framework security protections")
-                              (vulnerability. "Sensitive to application layer denial of service")
+                              (vulnerability. "Application is sensitive to application layer denial of service")
                               (vulnerability. "Triggering an exception leaks unnecessary information that can assist attacker")
                               ))
-                     (focus. "Implementation of access control"
+                     (focus. "Access control implementation"
                              (list
                               (vulnerability. "Authentication, authorisation or session management has been coded from scratch")
                               (vulnerability. "Authentication mechanism subject to brute force attack")
@@ -98,6 +89,7 @@
                               (vulnerability. "Failure to allow use of password manager and strong credentials")
                               (vulnerability. "Failure to prevent users creating weak credentials")
                               (vulnerability. "An attacker can trivially guess session identifier")
+                              (vulnerability. "Lack of access control on resources not intended to be discoverable to user")
                               (vulnerability. "Lack of protection against an attacker hijacking a session")
                               (vulnerability. "It is possible for attacker to tamper with session cookies")
                               (vulnerability. "Failure to check authorisation to more sensitive resources")
@@ -107,37 +99,39 @@
                               (vulnerability. "Failure of user interface obscure entry of credentials")
                               (vulnerability. "Can authenticate with credentials harvested from other breaches")
                               ))
+                     (focus. "End users"
+                             (list
+                              (vulnerability. "Lack of control over malware or shared logins on endpoint device devices")
+                              (vulnerability. "Lack awareness of audit and access policy")
+                              ))
                      (focus. "Developers or Devops Users"
                              (list
                               (vulnerability. "Lack of peer review prior to deployment of code to production")
                               (vulnerability. "Lack of audit log showing user actions within delivery infrastructure")
                               (vulnerability. "Lack of integrity signatures on artefacts passing through delivery pipeline")
-                              (vulnerability. "Lack of audit log showing user actions within delivery infrastructure")
-                              (vulnerability. "Lack of access control based on least privledge in delivery infrastructure and scm")
-                              (vulnerability. "Lack of access control based on least privledge to cloud consoles or APIs")
+                              (vulnerability. "Lack of access control based on least privledge in delivery infrastructure, scm or cloud console/API")
                               (vulnerability. "Lack of full disc encryption on devices containing configuration secrets or data")
-                              (vulnerability. "Lack of policy and awareness for production secrets on developer devices")
                               (vulnerability. "Lack of policy and awareness for troubleshooting with copies of production data")
                               (vulnerability. "Lack of tooling to prevent pushing configuration secrets to source control")
-                              (vulnerability. "Lack of static and other tooling in delivery pipeline to prevent error")
                               (vulnerability. "Lack of tests to verify functionality of security enforcing application code")
                               (vulnerability. "Failure to revoke access to delivery infrastructure rapidly when someone leaves")
                               (vulnerability. "Secrets are stored in plain text in source control")
                               (vulnerability. "Sensitive information is present in log files")
                               (vulnerability. "Lack of awareness of threat from phishing to developer devices")
-                              (vulnerability. "Lack of production from malware on developer devices")
+                              (vulnerability. "Lack of protection from malware on developer devices")
                               (vulnerability. "Poor morale or short term staff in production support roles")
                               ))
-                     (focus. "Implementation of Mobile app"
+                     (focus. "Mobile app implementation"
                              (list
                               (vulnerability. "Guessable values such as IMEI number used in authentication")
                               (vulnerability. "Sensitive data stored in unencrypted storage")
                               (vulnerability. "Sensitive data is leaked into logs")
                               (vulnerability. "Sensitive data is stored in predictable locations in memory")
                               ))
-                     (focus. "Implementation of Browser based app"
+                     (focus. "Browser based app implemention"
                              (list
                               (vulnerability. "Fails to prevent DOM based Cross Site Scripting (XSS)")
+                              (vulnerability. "Fails to prevent clickjacking")
                               (vulnerability. "Scripts to display advertising contain malicious code")
                               (vulnerability. "Code injection is possible via JSON responses recieved from server")
                               (vulnerability. "Lack of Client Security Policy (CSP) configration allows loading of untrusted resources")
@@ -164,11 +158,11 @@
   [:div.bigcard
    [:div.bigcard-header
     [:div.card-threat-title (:title focus)]
-    [:div.card-threat-subtitle "DESCRIPTION"]
+    [:div.card-threat-subtitle "TARGET:"]
     [:table
-     [:theads [:th "Relevant?"] [:th "Mitigated?"] [:th "Not sure?"] [:th "Follow up?"] [:th "Vulnerability"]]
+     [:theads [:th "REVELANT?"] [:th "MATTERS?"] [:th "VULNERABILITY"]]
      (for [vuln (:vulnerabilities focus)]
-       [:tr [:td "Relevant?"] [:td "Mitigated?"] [:td "Not sure?"] [:td "Follow up?"] [:td (:title vuln)]]
+       [:tr [:td "&#9744;"] [:td "&#9744;"] [:td (:title vuln)]]
        )
      ]
     ]
