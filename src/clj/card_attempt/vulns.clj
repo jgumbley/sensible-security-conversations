@@ -33,8 +33,8 @@
                      (focus. "Determined cyber attack on infrastructure"
                              (list
                               (vulnerability. "Running version of a dependency with 'zero day' vulnerability")
-                              (vulnerability. "Possible to escalate privledge from another system")
-                              (vulnerability. "Able to escalate privledge via cloud vendor side channel attack")
+                              (vulnerability. "Possible to escalate privlege from another system")
+                              (vulnerability. "Able to escalate privlege via cloud vendor side channel attack")
                               (vulnerability. "Possible to spawn a malicious process")
                               (vulnerability. "Possible for malicious process to read plaintext secret configuration at rest")
                               (vulnerability. "Possible for malicious process to read plaintext credentials at rest")
@@ -47,7 +47,7 @@
                               (vulnerability. "Lack of access control, i.e. any form of authentication")
                               (vulnerability. "Use of shared accounts and credentials")
                               (vulnerability. "Reliance on a single factor for authentication")
-                              (vulnerability. "Failure to configure access, i.e. based on least privledge")
+                              (vulnerability. "Failure to configure access, i.e. based on least privlege")
                               (vulnerability. "Lack of identity or entitlement checks in setting up a new account")
                               (vulnerability. "Weakness in offline process to reset credentials")
                               (vulnerability. "Lack of audit log showing user access to sensitive data")
@@ -62,14 +62,13 @@
                               (vulnerability. "Lack of data retention policy for personal data")
                               (vulnerability. "Personal data is being stored without a justification for processing")
                               ))
-                     (focus. "Server-side implementation"
+                     (focus. "Server-side web implementation"
                              (list
                               (vulnerability. "Fails to prevent stored or reflected Cross Site Scripting (XSS)")
                               (vulnerability. "File upload feature fails to block malware")
                               (vulnerability. "Fails to prevent SQL, XML (XXE) or LDAP injection")
                               (vulnerability. "Fails to prevent shell injection")
                               (vulnerability. "Fails to prevent open redirects")
-                              (vulnerability. "Fails to prevent a stack overflow")
                               (vulnerability. "Fails to prevent Cross-site request forgery (CSRF)")
                               (vulnerability. "It is possible for attacker to tamper with cookies")
                               (vulnerability. "Framework support for mass binding can be exploited")
@@ -101,22 +100,22 @@
                               ))
                      (focus. "End users"
                              (list
-                              (vulnerability. "Lack of control over malware or shared logins on endpoint device devices")
+                              (vulnerability. "Lack of control over malware or shared logins on endpoint devices")
                               (vulnerability. "Lack awareness of audit and access policy")
                               ))
                      (focus. "Developers or Devops Users"
                              (list
+                              (vulnerability. "Secrets are stored in plain text in source control")
+                              (vulnerability. "Lack of full disc encryption on devices containing configuration secrets or data")
+                              (vulnerability. "Lack of tooling to prevent pushing configuration secrets to source control")
+                              (vulnerability. "Lack of access control based on least privlege in delivery infrastructure, scm or cloud console/API")
+                              (vulnerability. "Failure to revoke access to delivery infrastructure rapidly when someone leaves")
+                              (vulnerability. "Lack of policy and awareness for troubleshooting with copies of production data")
+                              (vulnerability. "Sensitive information is present in log files")
                               (vulnerability. "Lack of peer review prior to deployment of code to production")
                               (vulnerability. "Lack of audit log showing user actions within delivery infrastructure")
                               (vulnerability. "Lack of integrity signatures on artefacts passing through delivery pipeline")
-                              (vulnerability. "Lack of access control based on least privledge in delivery infrastructure, scm or cloud console/API")
-                              (vulnerability. "Lack of full disc encryption on devices containing configuration secrets or data")
-                              (vulnerability. "Lack of policy and awareness for troubleshooting with copies of production data")
-                              (vulnerability. "Lack of tooling to prevent pushing configuration secrets to source control")
                               (vulnerability. "Lack of tests to verify functionality of security enforcing application code")
-                              (vulnerability. "Failure to revoke access to delivery infrastructure rapidly when someone leaves")
-                              (vulnerability. "Secrets are stored in plain text in source control")
-                              (vulnerability. "Sensitive information is present in log files")
                               (vulnerability. "Lack of awareness of threat from phishing to developer devices")
                               (vulnerability. "Lack of protection from malware on developer devices")
                               (vulnerability. "Poor morale or short term staff in production support roles")
@@ -132,14 +131,14 @@
                              (list
                               (vulnerability. "Fails to prevent DOM based Cross Site Scripting (XSS)")
                               (vulnerability. "Fails to prevent clickjacking")
-                              (vulnerability. "Scripts to display advertising contain malicious code")
-                              (vulnerability. "Code injection is possible via JSON responses recieved from server")
+                              (vulnerability. "Authenticated data is not removed from browser storage when session ends")
                               (vulnerability. "Lack of Client Security Policy (CSP) configration allows loading of untrusted resources")
                               (vulnerability. "Lack of Cross Origin Resource Sharing (CORS) configration allows loading of untrusted resources")
-                              (vulnerability. "Transfers between DOM contexts are subject to code injection")
                               (vulnerability. "Dependency on browser-based access control implementation")
                               (vulnerability. "Dependency on browser based business logic")
-                              (vulnerability. "Authenticated data is not removed from browser storage when session ends")
+                              (vulnerability. "Scripts to display advertising contain malicious code")
+                              (vulnerability. "Code injection is possible via JSON responses recieved from server")
+                              (vulnerability. "Transfers between DOM contexts are subject to code injection")
                              ))
                      (focus. "Network transport of data"
                              (list
@@ -157,8 +156,9 @@
 (defn draw-vuln-summary [focus]
   [:div.bigcard
    [:div.bigcard-header
+    [:div.card-threat-h2 "THREAT PLAYBOOK"]
     [:div.card-threat-title (:title focus)]
-    [:div.card-threat-subtitle "TARGET:"]
+    [:div.card-threat-subtitle "FOR ASSET:"]
     [:table
      [:theads [:th "REVELANT?"] [:th "MATTERS?"] [:th "VULNERABILITY"]]
      (for [vuln (:vulnerabilities focus)]

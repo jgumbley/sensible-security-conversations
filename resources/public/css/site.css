@@ -110,6 +110,15 @@ div.bigcard-sothat {
   font-size: 2.3em;
   }
 
+div.card-threat-h2 {
+    font-weight: 800;
+    color: #df9d9b;
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+    line-height: 1;
+    font-size: 1.0em;
+}
+
 div.card-threat-main {
     font-weight: 800;
     color: #df9d9b;
