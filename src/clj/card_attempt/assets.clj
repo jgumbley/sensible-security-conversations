@@ -21,29 +21,60 @@
 
 (def assets[
             (asset. "DATA AT REST" "REASON FOR STORING" "VALUE OR SENSITIVITY"
-                    "Pet food claims" (list
-                                "In order to process pet food refund claims")
+                    "&nbsp;" (list
+                              "In order to")
                     (list
                      "Personally identifiable"
                      "Financial"
-                     "Not commercially sensitive"
+                     "Anonymised"
+                     "Sensitive Personal Data"
+                     "Commercially sensitive"
                      "Regulated under PCI"))
             (asset. "DATA AT REST" "REASON FOR STORING" "VALUE OR SENSITIVITY"
-                    "Log data" (list
-                         "In order to troubleshoot issues in the system")
-                        (list
-                         "Not personally sensitive"
-                         "Not personally identifiable"
-                         "Not financial"
-                         "Not commercially sensitive"
-                         "Not regulated"))
+                    "&nbsp;" (list
+                              "In order to")
+                    (list
+                     "Personally identifiable"
+                     "Financial"
+                     "Anonymised"
+                     "Sensitive Personal Data"
+                     "Commercially sensitive"
+                     "Regulated under PCI"))
+            (asset. "DATA AT REST" "REASON FOR STORING" "VALUE OR SENSITIVITY"
+                    "&nbsp;" (list
+                              "In order to")
+                    (list
+                     "Personally identifiable"
+                     "Financial"
+                     "Anonymised"
+                     "Sensitive Personal Data"
+                     "Commercially sensitive"
+                     "Regulated under PCI"))
+            (asset. "DATA AT REST" "REASON FOR STORING" "VALUE OR SENSITIVITY"
+                    "&nbsp;" (list
+                                "In order to")
+                    (list
+                     "Personally identifiable"
+                     "Financial"
+                     "Anonymised"
+                     "Sensitive Personal Data"
+                     "Commercially sensitive"
+                     "Regulated under PCI"))
             (asset. "SERVICE" "PURPOSE OF SERVICE" " "
                     "Continous Delivery pipeline" (list
-                                              "In order that developers can be changes to the system")
+                                              "In order that developers can make changes to the system")
                     "")
             (asset. "SERVICE" "PURPOSE OF SERVICE" " "
-                    "Pet food claim service" (list
-                                "In order that people can make claims for defective pet food")
+                    "&nbsp;" (list
+                              "In order that ")
+                    "")
+            (asset. "SERVICE" "PURPOSE OF SERVICE" " "
+                    "&nbsp;" (list
+                              "In order that ")
+                    "")
+            (asset. "SERVICE" "PURPOSE OF SERVICE" " "
+                    "&nbsp;" (list
+                                "In order that ")
                     "")
             (asset. "PEOPLE" "REASON FOR USING SYSTEM" "HOW DO THEY CONNECT"
                     "Developers and Devops"
@@ -53,11 +84,25 @@
                      "Via a VPN into the build system from laptops"
                      ))
             (asset. "PEOPLE" "REASON FOR USING SYSTEM" "HOW DO THEY CONNECT"
-                    "Pet food refund claimants"
+                    "&nbsp;"
                     (list
-                     "In order to claim a refund for a defective pouch of catfood")
+                     "In order to")
                     (list
-                    "Via public internet"
+                     "&nbsp;"
+                     ))
+            (asset. "PEOPLE" "REASON FOR USING SYSTEM" "HOW DO THEY CONNECT"
+                    "&nbsp;"
+                    (list
+                     "In order to")
+                    (list
+                     "&nbsp;"
+                     ))
+            (asset. "PEOPLE" "REASON FOR USING SYSTEM" "HOW DO THEY CONNECT"
+                    "&nbsp;"
+                    (list
+                     "In order to")
+                    (list
+                    "&nbsp;"
                     ))
             ])
 

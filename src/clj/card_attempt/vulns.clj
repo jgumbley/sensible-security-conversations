@@ -75,7 +75,8 @@
                               (vulnerability. "Alternate character encodings can be used to circumvent protections")
                               (vulnerability. "User forms can be completed in a scripted manner")
                               (vulnerability. "Lack of rate limiting allows 'scraping' or 'spidering' of valuable data")
-                              (vulnerability. "URL paths can be manipulated to access system files, load remote files or access unauthorised resources")
+                              (vulnerability. "URL paths can be manipulated to access system files or load remote files")
+                              (vulnerability. "URL paths can be manipulated to access unauthorised resources")
                               (vulnerability. "Developers have disabled framework security protections")
                               (vulnerability. "Application is sensitive to application layer denial of service")
                               (vulnerability. "Triggering an exception leaks unnecessary information that can assist attacker")
@@ -156,13 +157,13 @@
 (defn draw-vuln-summary [focus]
   [:div.bigcard
    [:div.bigcard-header
-    [:div.card-threat-h2 "THREAT PLAYBOOK"]
+    [:div.card-threat-h2 "EXPOSURE"]
     [:div.card-threat-title (:title focus)]
     [:div.card-threat-subtitle "FOR ASSET:"]
     [:table
-     [:theads [:th "REVELANT?"] [:th "MATTERS?"] [:th "VULNERABILITY"]]
+     [:theads  [:th "&nbsp"] [:th.vuln "VULNERABILITY"] [:th "EXPOSURE?"]]
      (for [vuln (:vulnerabilities focus)]
-       [:tr [:td "&#9744;"] [:td "&#9744;"] [:td (:title vuln)]]
+       [:tr [:td "&nbsp;"] [:td (:title vuln)] [:td.tick "&#9744;"]]
        )
      ]
     ]

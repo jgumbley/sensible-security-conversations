@@ -7,7 +7,7 @@ div.bigcard {
     color: #666666;
     margin: 0cm;
     width: 20.80cm;
-    height: 14.70cm;
+    height: 14.80cm;
     float: left;
     border-style: solid;
     border-width: 0.5px;
@@ -136,13 +136,22 @@ div.card-threat-subtitle {
 }
 
 table {
-    margin: 5px;
     line-height: 1.2em;
 }
+th.vuln {
+    width: 18.5cm;
+}
+
 th {
     font-size: 0.5em;
     text-align: left;
     font-weight: lighter;
+}
+
+td.tick {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    text-align: center;
 }
 
 td {
